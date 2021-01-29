@@ -11,7 +11,6 @@ class Window:
         top = self.top = Toplevel(master)
         top.title("PASSWORD")
         top.resizable(width=False,height=False)
-
         self.password = Label(top,text="PASSWORD",justify=CENTER,font=('Helvetica', 14))
         self.password.grid(row=0)
         self.random = Button(top,text="Generate password",command= main, justify=CENTER,font=('Helvetica', 14))
@@ -89,7 +88,7 @@ root.resizable(width=False,height=False)
 
 Name = Label(root,text="Name",font=('Helvetica',14))
 password = Label(root,text="Passcode",font=('Helvetica',14))
-email = Label(root,text="email",font=('Helvetica',14))
+email = Label(root,text="Email",font=('Helvetica',14))
 add = Button(root,text="Add Email",command = onsubmit ,font=('Helvetica',14),justify=CENTER)
 
 Name.grid(row = 0)
