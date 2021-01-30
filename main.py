@@ -60,7 +60,7 @@ class email_add:
         self.label_pass = Label(root,text=strP)
         self.label_email = Label(root,text=strE)
 
-        self.label_name.grid(row=6 )
+        self.label_name.grid(row=6)
         self.label_pass.grid(row=6,column=1)
         self.label_email.grid(row=6,column=2)
 
