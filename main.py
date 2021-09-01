@@ -1,5 +1,4 @@
 from tkinter import *
-from rpg import main
 from tkinter import messagebox
 
 
